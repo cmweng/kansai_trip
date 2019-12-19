@@ -1,3 +1,3 @@
 # kansai_trip
 My Kansai trip web
-![](http://github.com/cmweng/kansai_trip.git/kansai_trip.png)
+![](http://github.com/cmweng/kansai_trip/kansai_trip.png)
