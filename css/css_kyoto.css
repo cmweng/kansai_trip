@@ -1,0 +1,168 @@
+body,h5, p{
+    /*font-family: 'Noto Sans TC', sans-serif;*/
+    font-family: 'Noto Serif TC', serif;
+    position: relative;
+}
+a:hover{
+    color: #6997e3;
+}
+hr{
+    visibility: hidden;
+}
+.nav-sec{
+    background-color: #d85e40;
+}
+.navbar-brand{
+    color:#ece4eb;
+}
+.nav-item{
+    color:#ece4eb;
+}
+.fa-canadian-maple-leaf{
+    color: #cd3a38;
+}
+.car-sec{
+    background-color: #d85e40;
+}
+.carouselpic{
+    background-position: center center;
+    -webkit-background-size: cover%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    height: 780px;
+}
+.showpic{
+    background-position: center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    max-height: 600px;
+}
+
+.sum-sec{
+    /*background-color: #d85e40;*/
+    /*height: 560px;*/
+    color:#521d0e;
+    /*z-index: 20;*/
+}
+.bg-cover{
+    background-position: center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:local;
+
+}
+.bg-cover2{
+    background-position: center center;
+    -webkit-background-size: 540px 360px;
+    background-size: 540px 360px;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    height: 380px;
+
+}
+.fadein{
+    top:150px;
+    opacity: 0;
+}
+.mask{
+    height:530px;
+}
+
+.main-sec{
+    background-color: #d85e40;
+}
+.main2-sec{
+    color: #521d0e;
+    background-image: url(../images/bg-maple2.png);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/*================*/
+.timeline-section{
+    position: relative;
+}
+.timeline-section::after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    width: 2px;
+    background-color: #999;
+    left:50%;
+    transform:translateX(-50%);
+}
+    .timeline-section-point{
+        position:relative;
+    }
+    .timeline-section-point:after{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        top:0;
+        bottom: 0;
+        border-radius: 50%;
+        background-color: #999;
+        border: 2px solid #ccc;
+        opacity: 0.5;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 200;
+
+    }
+/*================*/
+.top-div{
+    /*content: "<a href="#top">↑</a>";*/
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,255,0,0.3);
+  /*  opacity: 0.3;*/
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid rgba(0,255,0,0.3);
+    z-index: 250;
+}
+
+.footer{
+    background-color: #d85e40;
+}
+
+
+
+
+
+
+@media(max-width: 1024px){
+    .sum-sec{
+        color: #ece4eb;
+    }
+    .mask{
+        background-color: rgba(240,240,240,0.3);
+
+    }
+    .arrowpic{
+        display:none;
+    }
+
+}
+@media(max-width: 768px){
+    hr{
+        visibility: visible;
+    }
+    .timeline-section:after{
+        display: none;
+    }
+    .timeline-section-point:after{
+        display: none;
+    }
+}
+
+
